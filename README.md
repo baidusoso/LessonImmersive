@@ -101,7 +101,7 @@ void onSystemUiVisibilityChange(int visibility) {
 	Log.d(TAG, "visibility=" + visibility);
 }
 ```
-改方案仅适用于Android 4.4 (API Level 19)及以上。
+该方案仅适用于Android 4.4 (API Level 19)及以上。
 
  - ViewTreeObserver.OnGlobalLayoutListener
  
