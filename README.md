@@ -1,6 +1,8 @@
 ## 什么是沉浸式模式 ##
 Android 4.4 (API Level 19)引入一个新的概念——“沉浸式模式”，即真正的全屏模式：SystemUI（StatusBar和NavigationBar）也都被隐藏，具体可以参考Android开发者官网的介绍：[Using Immersive Full-Screen Mode](https://developer.android.com/training/system-ui/immersive.html)
 如果大家已经下载Android SDK的文档，那么也可以查看SDK目录下的文档：docs\training\system-ui\index.html
+下图来自android开发者官网对沉浸式介绍的文档
+<img src="https://github.com/baidusoso/LessonImmersive/blob/master/screenshot/sticky.png?raw=true"/>
 
 ## 沉浸式模式的实现 ##
 沉浸式模式的实现，在Android不同版本是有差异的。
@@ -31,6 +33,8 @@ WindowManager.LayoutParams.FLAG_FULLSCREEN);
 activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN);    
 activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 ```
+效果图
+<img src="https://github.com/baidusoso/LessonImmersive/blob/master/screenshot/overlay.png?raw=true"/>
 ## 取消沉浸式模式##
 ###  Android 4.4 (API Level 19)及以上 ###
 
