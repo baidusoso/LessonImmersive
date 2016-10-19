@@ -1,0 +1,4 @@
+#Wed Oct 19 15:26:04 CST 2016
+base.0=E\:\\SourceCode\\Android\\Lessons\\LessonImmersive\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\SourceCode\\Android\\Lessons\\LessonImmersive\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
